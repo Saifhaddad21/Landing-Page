@@ -73,3 +73,57 @@ body {
 .register-btn:hover {
     background: #226622;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5px;
+    background-color: #f4f6f8;
+}
+
+.Hero-Content {
+    max-width: 50%;
+}
+
+.Hero h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.Hero h1 span {
+    font-weight: bold;
+    color: #2a7a2a;
+}
+
+.Hero p {
+    color: #666;
+    margin: 10px 0 20px;
+}
+ 
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #2a7a2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: backgroud 0.3s ease;
+}
+
+.btn:hover {
+    background: #226622;
+}
+
+/* Right Side Image */
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
