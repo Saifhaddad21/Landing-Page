@@ -127,3 +127,34 @@ body {
     width: 100%;
     max-width: 400px;
 }
+
+.hero-content2 {
+    background-color: white;
+    color: #333;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero-content2 h3 {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40%;
+    background: white;
+    display: flex;
+}
+.p1 {
+    align-items: center;
+    align-content: center;
+    margin: 1px;
+    padding: 1px 30%;
+
+}
+
+.client-logo img {
+    width: 384.61px;
+    height: 50px;
+    
+}
