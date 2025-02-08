@@ -274,5 +274,161 @@ body {
 .hero-image2 {
     display: flex;
     flex-direction: row;
+    margin-left: 0px;
+}
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
 }
 
+.stats-content {
+    max-width: 400px;
+}
+
+.stats-content h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.highlight {
+    color: #3cae3c;
+    font-weight: bold;
+}
+
+.stats-content p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.stat-item h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.stat-item p {
+    color: #666;
+}
+
+.phone-design {
+    width: 100%;
+    height: 144.7px;
+    justify-items: space-between;
+    padding-right: 48.08px;
+    padding-left: 48.08px;
+    display: flex;
+    padding: 16px;
+    margin: 10px;
+}
+
+.phone-design phone {
+    width: 147.41px;
+    height: 144.7px;
+    display: flex;
+    
+}
+
+.design-1 {
+    width: 100%;
+    height: 76.34px;
+    margin-left: 16px;
+    
+}
+
+.air-smith {
+    width: 100%;
+    height: 132.09px;
+    padding: 0%;
+    gap: 26.04px;
+    display: flex;
+    margin: 10px;
+}
+
+.smith-2 img {
+    width: 500px;
+    height: 20px;
+    margin: 2px;
+}
+
+.marketting {
+    width: 100%;
+    height: 171.81px;
+    margin: 30px;
+    display: inline;
+    flex-direction: row;
+    
+
+}
+
+
+
+.market-1 h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.market-1 p {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    size: 5.34px;
+    margin: 10px;
+    padding: 0%;
+}
+.market-1 p span {
+    margin: 50px;
+}
+
+.market-image img-1 {
+    width: 122.86px;
+    height: 95.49px;
+    border-radius: 2.67px;
+    flex-direction: column;
+    text-align: left;
+    margin: 5px;
+}
+
+.market-image img-2 {
+    width: 122.86px;
+    height: 95.49px;
+    border-radius: 2.67px;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+}
+
+.market-image img-3 {
+    width: 122.86px;
+    height: 95.49px;
+    border-radius: 2.67px;
+    flex-direction: column;
+    text-align: right;
+    margin: 5px;
+}
+
+.market-image {
+    margin: 30px;
+    padding: auto;
+    display: inline;
+    flex-direction: column;
+}
